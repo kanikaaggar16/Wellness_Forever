@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="CARDIOLOGIST"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@drawable/textview"
+        android:textSize="40dp"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:src="@drawable/doc1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:elevation="6dp"
+        android:text="Specialisations:	Cardiothoracic surgeon, Echocardiologist, Electrophysiologist, Interventional cardiologist, Nuclear cardiologist
+"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:background="#fffafa"
+        android:layout_marginTop="450dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/book"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:text="Book Appointment"
+        android:textColor="#fffafa"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+</RelativeLayout>
